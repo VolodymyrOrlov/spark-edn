@@ -1,0 +1,8 @@
+;;Simple user database for testing purposes
+[
+ {:user_id "1", :user_name "John"}
+ {:user_id "2", :user_name "Bob"}
+ {:user_id "3", :user_name "tc_1"}
+ {:user_id "4", :user_name "tc_2"}
+ {:user_id "5" :user_name #"tc_3"}
+]

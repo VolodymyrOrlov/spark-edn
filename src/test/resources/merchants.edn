@@ -1,0 +1,19 @@
+#{
+  ;; Telecom
+  {:name "Verizon" :value #"(?i)\bVZ\b|VERIZON"}
+  {:name "Verizon" :value #"(?i)\bVZ\b|VERIZON"}
+  {:name "Comcast" :value #"(?i)COMCAST"}
+  {:name "AT&T" :value #"(?i)\bATT\b|AT&T|ATAND;?T|AT&AMP;?T"}
+  {:name "CenturyLink" :value #"(?i)CENTURYLINK"}
+  {:name "Time Warner" :value #"(?i)TWC|TIME ?WARNER"}
+  {:name "T-Mobile" :value #"(?i)\bT.?MOBILE"}
+  {:name "Sprint" :value #"(?i)\bSPRINT(\b|\d)"}
+
+  ;; Utility
+  {:name "Duke Energy" :value #"(?i)DUKE ?ENERGY"}
+
+  ;; Games
+  {:name "Blizzard" :value #"(?i)BLIZZARD ?ENT"}
+  {:name "Valve" :value #"(?i)VALVE ?SOFT|STEAM.?GAME|STEAMPOWERED.?COM"}
+  {:name "Gamestop" :value #"(?i)GAMESTOP"}
+}
